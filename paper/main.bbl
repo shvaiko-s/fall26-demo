@@ -1,0 +1,591 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{38}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Kaczmarz}{1937}]{kaczmarz1973}
+\begin{barticle}
+\bauthor{\bsnm{Kaczmarz}, \binits{S.}}:
+\batitle{Angen{\"a}herte {A}ufl{\"o}sung von {S}ystemen linearer {G}leichungen}.
+\bjtitle{Bull. Internat. Acad. Polon. Sci. Lettres A}
+\bvolume{35},
+\bfpage{355}--\blpage{357}
+(\byear{1937})
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Strohmer and Vershynin}{2009}]{strohmer2007randomized}
+\begin{barticle}
+\bauthor{\bsnm{Strohmer}, \binits{T.}},
+\bauthor{\bsnm{Vershynin}, \binits{R.}}:
+\batitle{A randomized {Kaczmarz} algorithm with exponential convergence}.
+\bjtitle{Journal of Fourier Analysis and Applications}
+\bvolume{15}(\bissue{2}),
+\bfpage{262}--\blpage{278}
+(\byear{2009})
+\doiurl{10.1007/s00041-008-9030-4}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Haddock et~al.}{2022}]{haddock2022quantilebased}
+\begin{barticle}
+\bauthor{\bsnm{Haddock}, \binits{J.}},
+\bauthor{\bsnm{Needell}, \binits{D.}},
+\bauthor{\bsnm{Rebrova}, \binits{E.}},
+\bauthor{\bsnm{Swartworth}, \binits{W.}}:
+\batitle{Quantile-based iterative methods for corrupted systems of linear equations}.
+\bjtitle{SIAM Journal on Matrix Analysis and Applications}
+\bvolume{43}(\bissue{2}),
+\bfpage{605}--\blpage{637}
+(\byear{2022})
+\doiurl{10.1137/21M1429187}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Steinerberger}{2023}]{steinerberger2021quantile}
+\begin{barticle}
+\bauthor{\bsnm{Steinerberger}, \binits{S.}}:
+\batitle{Quantile-based random {Kaczmarz} for corrupted linear systems of equations}.
+\bjtitle{Information and Inference: A Journal of the IMA}
+\bvolume{12}(\bissue{1}),
+\bfpage{448}--\blpage{465}
+(\byear{2023})
+\doiurl{10.1093/imaiai/iaab029}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Jarman and Needell}{2021}]{jarman2021quantilerk}
+\begin{bchapter}
+\bauthor{\bsnm{Jarman}, \binits{B.}},
+\bauthor{\bsnm{Needell}, \binits{D.}}:
+\bctitle{{QuantileRK}: Solving large-scale linear systems with corrupted, noisy data}.
+In: \bbtitle{2021 55th Asilomar Conference on Signals, Systems, and Computers},
+pp. \bfpage{1312}--\blpage{1316}
+(\byear{2021}).
+\doiurl{10.1109/IEEECONF53345.2021.9723338}
+\end{bchapter}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Battaglia and Ma}{2026}]{battaglia2025qrkdoublequantilerkerror}
+\begin{barticle}
+\bauthor{\bsnm{Battaglia}, \binits{E.}},
+\bauthor{\bsnm{Ma}, \binits{A.}}:
+\batitle{{Quantile-RK} and double {Quantile-RK} error horizon analysis}.
+\bjtitle{Linear Algebra and its Applications}
+\bvolume{736},
+\bfpage{284}--\blpage{308}
+(\byear{2026})
+\doiurl{10.1016/j.laa.2026.01.032}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Coria et~al.}{2024}]{coria2024quantile}
+\begin{botherref}
+\oauthor{\bsnm{Coria}, \binits{N.}},
+\oauthor{\bsnm{Haddock}, \binits{J.}},
+\oauthor{\bsnm{Pacheco}, \binits{J.}}:
+On quantile randomized {Kaczmarz} for linear systems with time-varying noise and corruption.
+Preprint at \url{https://arxiv.org/abs/2403.19874}
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Moorman et~al.}{2021}]{moorman2021randomized}
+\begin{barticle}
+\bauthor{\bsnm{Moorman}, \binits{J.D.}},
+\bauthor{\bsnm{Tu}, \binits{T.K.}},
+\bauthor{\bsnm{Molitor}, \binits{D.}},
+\bauthor{\bsnm{Needell}, \binits{D.}}:
+\batitle{Randomized {Kaczmarz} with averaging}.
+\bjtitle{BIT Numerical Mathematics}
+\bvolume{61}(\bissue{1}),
+\bfpage{337}--\blpage{359}
+(\byear{2021})
+\doiurl{10.1007/s10543-020-00824-1}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Marshall and Mickelin}{2023}]{marshall2022optimal}
+\begin{barticle}
+\bauthor{\bsnm{Marshall}, \binits{N.F.}},
+\bauthor{\bsnm{Mickelin}, \binits{O.}}:
+\batitle{An optimal scheduled learning rate for a randomized {Kaczmarz} algorithm}.
+\bjtitle{SIAM Journal on Matrix Analysis and Applications}
+\bvolume{44}(\bissue{1}),
+\bfpage{312}--\blpage{330}
+(\byear{2023})
+\doiurl{10.1137/22M148803X}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Tondji et~al.}{2024}]{tondji2023adaptive}
+\begin{barticle}
+\bauthor{\bsnm{Tondji}, \binits{L.}},
+\bauthor{\bsnm{Tondji}, \binits{I.}},
+\bauthor{\bsnm{Lorenz}, \binits{D.A.}}:
+\batitle{Adaptive {Bregman--Kaczmarz}: An approach to solve linear inverse problems with independent noise exactly}.
+\bjtitle{Inverse Problems}
+\bvolume{40}(\bissue{9}),
+\bfpage{095006}
+(\byear{2024})
+\doiurl{10.1088/1361-6420/ad5fb1}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Tondji et~al.}{2026}]{tondji2026accelerated}
+\begin{botherref}
+\oauthor{\bsnm{Tondji}, \binits{L.}},
+\oauthor{\bsnm{Mahamat}, \binits{A.A.}},
+\oauthor{\bsnm{Tondji}, \binits{I.}}:
+Accelerated exact recovery from noisy data via averaging and noise-aware adaptive {Bregman--Kaczmarz}.
+Preprint at \url{https://arxiv.org/abs/2607.16003}
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Shen and Sanghavi}{2019}]{shen2019learning}
+\begin{bchapter}
+\bauthor{\bsnm{Shen}, \binits{Y.}},
+\bauthor{\bsnm{Sanghavi}, \binits{S.}}:
+\bctitle{Learning with bad training data via iterative trimmed loss minimization}.
+In: \bbtitle{Proceedings of the 36th International Conference on Machine Learning}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{97},
+pp. \bfpage{5739}--\blpage{5748}
+(\byear{2019}).
+\burl{https://proceedings.mlr.press/v97/shen19e.html}
+\end{bchapter}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Koloskova et~al.}{2023}]{koloskova2023revisiting}
+\begin{bchapter}
+\bauthor{\bsnm{Koloskova}, \binits{A.}},
+\bauthor{\bsnm{Hendrikx}, \binits{H.}},
+\bauthor{\bsnm{Stich}, \binits{S.U.}}:
+\bctitle{Revisiting gradient clipping: Stochastic bias and tight convergence guarantees}.
+In: \bbtitle{Proceedings of the 40th International Conference on Machine Learning}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{202},
+pp. \bfpage{17343}--\blpage{17363}
+(\byear{2023}).
+\burl{https://proceedings.mlr.press/v202/koloskova23a.html}
+\end{bchapter}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Kolda and Bader}{2009}]{kolda2009tensor}
+\begin{barticle}
+\bauthor{\bsnm{Kolda}, \binits{T.G.}},
+\bauthor{\bsnm{Bader}, \binits{B.W.}}:
+\batitle{Tensor decompositions and applications}.
+\bjtitle{SIAM Review}
+\bvolume{51}(\bissue{3}),
+\bfpage{455}--\blpage{500}
+(\byear{2009})
+\doiurl{10.1137/07070111X}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Cheng et~al.}{2023}]{cheng2022block}
+\begin{barticle}
+\bauthor{\bsnm{Cheng}, \binits{L.}},
+\bauthor{\bsnm{Jarman}, \binits{B.}},
+\bauthor{\bsnm{Needell}, \binits{D.}},
+\bauthor{\bsnm{Rebrova}, \binits{E.}}:
+\batitle{On block accelerations of quantile randomized {Kaczmarz} for corrupted systems of linear equations}.
+\bjtitle{Inverse Problems}
+\bvolume{39}(\bissue{2}),
+\bfpage{024002}
+(\byear{2023})
+\doiurl{10.1088/1361-6420/aca78a}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Haddock et~al.}{2023}]{haddock2023subsampled}
+\begin{bchapter}
+\bauthor{\bsnm{Haddock}, \binits{J.}},
+\bauthor{\bsnm{Ma}, \binits{A.}},
+\bauthor{\bsnm{Rebrova}, \binits{E.}}:
+\bctitle{On subsampled quantile randomized {Kaczmarz}}.
+In: \bbtitle{2023 59th Annual Allerton Conference on Communication, Control, and Computing (Allerton)},
+pp. \bfpage{1}--\blpage{8}
+(\byear{2023}).
+\doiurl{10.1109/Allerton58177.2023.10313381}
+\end{bchapter}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Cai et~al.}{2026}]{cai2026subsample}
+\begin{barticle}
+\bauthor{\bsnm{Cai}, \binits{J.-F.}},
+\bauthor{\bsnm{Chen}, \binits{J.}},
+\bauthor{\bsnm{Ma}, \binits{A.}},
+\bauthor{\bsnm{Wu}, \binits{T.}}:
+\batitle{On the subsample size of quantile-based randomized {Kaczmarz}}.
+\bjtitle{SIAM Journal on Matrix Analysis and Applications}
+\bvolume{47}(\bissue{2}),
+\bfpage{802}--\blpage{823}
+(\byear{2026})
+\doiurl{10.1137/25M1785678}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Haddock et~al.}{2026}]{haddock2026lossfiltering}
+\begin{botherref}
+\oauthor{\bsnm{Haddock}, \binits{J.}},
+\oauthor{\bsnm{Ma}, \binits{A.}},
+\oauthor{\bsnm{Rebrova}, \binits{E.}}:
+Quantile-based loss filtering for outlier-robust stochastic gradient descent.
+Preprint at \url{https://arxiv.org/abs/2609.13040}
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Battaglia et~al.}{2026}]{battaglia2026streaming}
+\begin{botherref}
+\oauthor{\bsnm{Battaglia}, \binits{E.}},
+\oauthor{\bsnm{Cai}, \binits{J.-F.}},
+\oauthor{\bsnm{Chen}, \binits{J.}},
+\oauthor{\bsnm{Ma}, \binits{A.}},
+\oauthor{\bsnm{Needell}, \binits{D.}},
+\oauthor{\bsnm{Wu}, \binits{T.}}:
+Quantile randomized {Kaczmarz} for streaming linear systems with {Massart} noise.
+Preprint at \url{https://arxiv.org/abs/2608.27968}
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Needell}{2010}]{needell2010}
+\begin{barticle}
+\bauthor{\bsnm{Needell}, \binits{D.}}:
+\batitle{Randomized {Kaczmarz} solver for noisy linear systems}.
+\bjtitle{BIT Numerical Mathematics}
+\bvolume{50}(\bissue{2}),
+\bfpage{395}--\blpage{403}
+(\byear{2010})
+\doiurl{10.1007/s10543-010-0265-5}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Lin and Zhou}{2015}]{lin2015learning}
+\begin{barticle}
+\bauthor{\bsnm{Lin}, \binits{J.}},
+\bauthor{\bsnm{Zhou}, \binits{D.-X.}}:
+\batitle{Learning theory of randomized {Kaczmarz} algorithm}.
+\bjtitle{The Journal of Machine Learning Research}
+\bvolume{16},
+\bfpage{3341}--\blpage{3365}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Epperly et~al.}{2026}]{2025tailaveraging}
+\begin{barticle}
+\bauthor{\bsnm{Epperly}, \binits{E.N.}},
+\bauthor{\bsnm{Goldshlager}, \binits{G.}},
+\bauthor{\bsnm{Webber}, \binits{R.J.}}:
+\batitle{Randomized {Kaczmarz} with tail averaging}.
+\bjtitle{Applied and Computational Harmonic Analysis}
+\bvolume{80},
+\bfpage{101812}
+(\byear{2026})
+\doiurl{10.1016/j.acha.2025.101812}
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2027}]{zhang2026signal}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Zeng}, \binits{J.}},
+\bauthor{\bsnm{Zhang}, \binits{H.}}:
+\batitle{Relaxed greedy randomized {Kaczmarz} with signal averaging for solving doubly-noisy linear systems}.
+\bjtitle{Journal of Computational and Applied Mathematics}
+\bvolume{493},
+\bfpage{118159}
+(\byear{2027})
+\doiurl{10.1016/j.cam.2026.118159}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Haddock and Needell}{2019}]{haddock2019randomized}
+\begin{barticle}
+\bauthor{\bsnm{Haddock}, \binits{J.}},
+\bauthor{\bsnm{Needell}, \binits{D.}}:
+\batitle{Randomized projection methods for linear systems with arbitrarily large sparse corruptions}.
+\bjtitle{SIAM Journal on Scientific Computing}
+\bvolume{41}(\bissue{5}),
+\bfpage{19}--\blpage{36}
+(\byear{2019})
+\doiurl{10.1137/18M1179213}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Anderson et~al.}{2025}]{anderson2025beyond}
+\begin{botherref}
+\oauthor{\bsnm{Anderson}, \binits{T.}},
+\oauthor{\bsnm{Collins}, \binits{M.}},
+\oauthor{\bsnm{Haddock}, \binits{J.}},
+\oauthor{\bsnm{Lok}, \binits{J.}},
+\oauthor{\bsnm{Rebrova}, \binits{E.}}:
+Beyond expectation: concentration inequalities for randomized iterative methods.
+Preprint at \url{https://arxiv.org/abs/2511.20877}
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Shvaiko et~al.}{2026}]{shvaiko2026whitelist}
+\begin{bchapter}
+\bauthor{\bsnm{Shvaiko}, \binits{S.}},
+\bauthor{\bsnm{Huang}, \binits{L.}},
+\bauthor{\bsnm{Rebrova}, \binits{E.}}:
+\bctitle{Quantile randomized {Kaczmarz} algorithm with whitelist trust mechanism}.
+In: \bbtitle{{ICASSP} 2026 -- 2026 {IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP})},
+pp. \bfpage{721}--\blpage{725}
+(\byear{2026}).
+\doiurl{10.1109/ICASSP55912.2026.11464303}
+\end{bchapter}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Castillo et~al.}{2025}]{castillo2025tensor}
+\begin{botherref}
+\oauthor{\bsnm{Castillo}, \binits{A.}},
+\oauthor{\bsnm{Haddock}, \binits{J.}},
+\oauthor{\bsnm{Hartsock}, \binits{I.}},
+\oauthor{\bsnm{Hoyos}, \binits{P.}},
+\oauthor{\bsnm{Kassab}, \binits{L.}},
+\oauthor{\bsnm{Kryshchenko}, \binits{A.}},
+\oauthor{\bsnm{Larripa}, \binits{K.}},
+\oauthor{\bsnm{Needell}, \binits{D.}},
+\oauthor{\bsnm{Suryanarayanan}, \binits{S.}},
+\oauthor{\bsnm{Yacoubou~Djima}, \binits{K.}}:
+Quantile-based randomized {Kaczmarz} for corrupted tensor linear systems.
+Preprint at \url{https://arxiv.org/abs/2503.18190}
+(2025)
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Collins et~al.}{2025}]{collins2025quantile}
+\begin{bchapter}
+\bauthor{\bsnm{Collins}, \binits{Z.}},
+\bauthor{\bsnm{Haddock}, \binits{J.}},
+\bauthor{\bsnm{Headley}, \binits{T.}},
+\bauthor{\bsnm{Wang}, \binits{L.}}:
+\bctitle{Quantile multiplicative updates for corruption-robust nonnegative matrix factorization}.
+In: \bbtitle{2025 International Conference on Sampling Theory and Applications (SampTA)},
+pp. \bfpage{1}--\blpage{5}
+(\byear{2025}).
+\doiurl{10.1109/SampTA64769.2025.11133532}
+\end{bchapter}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2025}]{zhang2025quantilesparse}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Zhang}, \binits{H.}}:
+\batitle{Quantile-based random sparse {Kaczmarz} for corrupted and noisy linear systems}.
+\bjtitle{Numerical Algorithms}
+\bvolume{98},
+\bfpage{1575}--\blpage{1610}
+(\byear{2025})
+\doiurl{10.1007/s11075-024-01844-6}
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2026}]{zhang2026momentum}
+\begin{botherref}
+\oauthor{\bsnm{Zhang}, \binits{L.}},
+\oauthor{\bsnm{Zeng}, \binits{J.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{H.}}:
+Adaptive momentum via minimal dual function for accelerating randomized sparse {Kaczmarz}.
+Preprint at \url{https://arxiv.org/abs/2603.29276}
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Sch{\"o}pfer et~al.}{2022}]{schopfer2022extended}
+\begin{barticle}
+\bauthor{\bsnm{Sch{\"o}pfer}, \binits{F.}},
+\bauthor{\bsnm{Lorenz}, \binits{D.A.}},
+\bauthor{\bsnm{Tondji}, \binits{L.}},
+\bauthor{\bsnm{Winkler}, \binits{M.}}:
+\batitle{Extended randomized {Kaczmarz} method for sparse least squares and impulsive noise problems}.
+\bjtitle{Linear Algebra and its Applications}
+\bvolume{652},
+\bfpage{132}--\blpage{154}
+(\byear{2022})
+\doiurl{10.1016/j.laa.2022.07.003}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Jeong et~al.}{2025}]{jeong2024stochastic}
+\begin{barticle}
+\bauthor{\bsnm{Jeong}, \binits{H.}},
+\bauthor{\bsnm{Needell}, \binits{D.}},
+\bauthor{\bsnm{Rebrova}, \binits{E.}}:
+\batitle{Stochastic gradient descent for streaming linear and rectified linear systems with adversarial corruptions}.
+\bjtitle{SIAM Journal on Mathematics of Data Science}
+\bvolume{7}(\bissue{2}),
+\bfpage{516}--\blpage{541}
+(\byear{2025})
+\doiurl{10.1137/24M1652167}
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Pesme and Flammarion}{2020}]{pesme2020online}
+\begin{bchapter}
+\bauthor{\bsnm{Pesme}, \binits{S.}},
+\bauthor{\bsnm{Flammarion}, \binits{N.}}:
+\bctitle{Online robust regression via {SGD} on the $\ell_1$ loss}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{33},
+pp. \bfpage{2540}--\blpage{2552}
+(\byear{2020})
+\end{bchapter}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Vershynin}{2018}]{vershynin2018high}
+\begin{bbook}
+\bauthor{\bsnm{Vershynin}, \binits{R.}}:
+\bbtitle{High-Dimensional Probability: An Introduction with Applications in Data Science}.
+\bsertitle{Cambridge Series in Statistical and Probabilistic Mathematics}.
+\bpublisher{Cambridge University Press},
+\blocation{Cambridge}
+(\byear{2018}).
+\doiurl{10.1017/9781108231596}
+\end{bbook}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Gower et~al.}{2019}]{gower2019sgd}
+\begin{bchapter}
+\bauthor{\bsnm{Gower}, \binits{R.M.}},
+\bauthor{\bsnm{Loizou}, \binits{N.}},
+\bauthor{\bsnm{Qian}, \binits{X.}},
+\bauthor{\bsnm{Sailanbayev}, \binits{A.}},
+\bauthor{\bsnm{Shulgin}, \binits{E.}},
+\bauthor{\bsnm{Richt{\'a}rik}, \binits{P.}}:
+\bctitle{{SGD}: General analysis and improved rates}.
+In: \bbtitle{Proceedings of the 36th International Conference on Machine Learning}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{97},
+pp. \bfpage{5200}--\blpage{5209}
+(\byear{2019}).
+\burl{https://proceedings.mlr.press/v97/qian19b.html}
+\end{bchapter}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Friedlander and Schmidt}{2012}]{friedlander2012hybrid}
+\begin{barticle}
+\bauthor{\bsnm{Friedlander}, \binits{M.P.}},
+\bauthor{\bsnm{Schmidt}, \binits{M.}}:
+\batitle{Hybrid deterministic-stochastic methods for data fitting}.
+\bjtitle{SIAM Journal on Scientific Computing}
+\bvolume{34}(\bissue{3}),
+\bfpage{1380}--\blpage{1405}
+(\byear{2012})
+\doiurl{10.1137/110830629}
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{Smith et~al.}{2018}]{smith2018dont}
+\begin{bchapter}
+\bauthor{\bsnm{Smith}, \binits{S.L.}},
+\bauthor{\bsnm{Kindermans}, \binits{P.-J.}},
+\bauthor{\bsnm{Ying}, \binits{C.}},
+\bauthor{\bsnm{Le}, \binits{Q.V.}}:
+\bctitle{Don't decay the learning rate, increase the batch size}.
+In: \bbtitle{International Conference on Learning Representations (ICLR)}
+(\byear{2018})
+\end{bchapter}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Hansen}{2007}]{hansen2007regularization}
+\begin{barticle}
+\bauthor{\bsnm{Hansen}, \binits{P.C.}}:
+\batitle{{Regularization Tools} version 4.0 for {MATLAB} 7.3}.
+\bjtitle{Numerical Algorithms}
+\bvolume{46}(\bissue{2}),
+\bfpage{189}--\blpage{194}
+(\byear{2007})
+\doiurl{10.1007/s11075-007-9136-9}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
