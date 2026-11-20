@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amssymb}
+\usepackage{xcolor} % \textcolor{red}{ADDED COLOR SUPPORT FOR THE NEW SUMMARY.}
 
 \title{Literature Review Summaries}
 \author{}
@@ -37,5 +38,49 @@ regularized hinge loss show that intermediate quantiles often outperform
 both ordinary SGD and minimum-$k$-loss SGD. The latter can stall by repeatedly
 selecting nearly solved components. The paper identifies averaging accepted
 gradients, momentum, and variance reduction as directions for future work.
+
+
+\section{[SR] Beyond the error horizon: averaged quantile Kaczmarz methods for corrupted and noisy linear systems}
+\label{sec:sr}
+\textbf{Authors:} Sofiia Shvaiko and Elizaveta Rebrova.
+
+The paper studies linear systems whose right-hand sides contain both sparse,
+potentially large corruptions and dense noise. Its method, averaged quantile
+randomized Kaczmarz (AQRK), selects equations with small absolute residuals
+and averages a batch of relaxed single-row updates. A central observation is
+that filtering can bias the accepted noise: averaging reduces fluctuations
+but cannot by itself remove this bias. When repeated observations are
+available, AQRK queries the selected equations again, keeping the update
+noise independent of the selection event while leaving the sparse
+corruptions fixed.
+
+For full screening, independent bounded mean-zero query noise, a sufficiently
+small corruption fraction relative to the matrix's restricted conditioning,
+and corruptions sufficiently large relative to the noise, the authors prove
+\[
+\mathbb E\|x_k-x^\star\|^2
+\le (1-\eta\alpha)^k\|x_0-x^\star\|^2
++\frac{\alpha r_\infty^2}{\eta s},
+\]
+where $\alpha$ is an admissible stepsize, $s$ is the update batch size,
+$r_\infty$ bounds the query noise, and $\eta>0$ depends on the matrix,
+quantile, and corruption fraction. Thus the root-mean-square error horizon
+scales as $\sqrt{\alpha/s}$. Suitable decreasing-stepsize or increasing-batch
+schedules yield mean-square convergence to the clean solution. For
+Gaussian-like designs, the horizon is of order
+$\sqrt{\alpha n/s}\,r_\infty$, so a batch of order $n$ with an admissible
+constant stepsize reduces it to the noise scale.
+
+Experiments on synthetic systems support the batch-size scaling and examine
+the importance of corruption separation. Tomography tests show improvements
+on an ill-conditioned system beyond the theoretical assumptions, including
+fixed noise, where filtering bias can persist and semi-convergence appears.
+As an inner solver for CP tensor fitting, AQRK also recovers corrupted
+low-rank tensors in cases where standard alternating least squares,
+unfiltered averaging, and single-row quantile updates fail. Future directions
+include fixed-noise analysis, weaker separation conditions, optimal parameter
+schedules, and stopping rules for changing least-squares subproblems.
+\par
+
 
 \end{document}

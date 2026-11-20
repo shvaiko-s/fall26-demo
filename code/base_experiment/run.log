@@ -1,0 +1,86 @@
+oblivious: trial 1/5, RK, last recorded relative error 1.50017
+oblivious: trial 1/5, ARK, last recorded relative error 0.341863
+oblivious: trial 1/5, QRK, last recorded relative error 0.0151358
+oblivious: trial 1/5, AQRK_fresh, last recorded relative error 0.000983743
+oblivious: trial 1/5, AQRK_reused, last recorded relative error 0.00259529
+oblivious: trial 1/5, AQRK_all, last recorded relative error 0.00194187
+sign_flip: trial 1/5, RK, last recorded relative error 1.13033
+sign_flip: trial 1/5, ARK, last recorded relative error 0.621657
+sign_flip: trial 1/5, QRK, last recorded relative error 0.0130188
+sign_flip: trial 1/5, AQRK_fresh, last recorded relative error 0.00095747
+sign_flip: trial 1/5, AQRK_reused, last recorded relative error 0.0027276
+sign_flip: trial 1/5, AQRK_all, last recorded relative error 0.00215282
+oblivious: trial 2/5, RK, last recorded relative error 1.3214
+oblivious: trial 2/5, ARK, last recorded relative error 0.318707
+oblivious: trial 2/5, QRK, last recorded relative error 0.012746
+oblivious: trial 2/5, AQRK_fresh, last recorded relative error 0.000815205
+oblivious: trial 2/5, AQRK_reused, last recorded relative error 0.00200223
+oblivious: trial 2/5, AQRK_all, last recorded relative error 0.00154634
+sign_flip: trial 2/5, RK, last recorded relative error 1.2923
+sign_flip: trial 2/5, ARK, last recorded relative error 0.635289
+sign_flip: trial 2/5, QRK, last recorded relative error 0.0123865
+sign_flip: trial 2/5, AQRK_fresh, last recorded relative error 0.000713782
+sign_flip: trial 2/5, AQRK_reused, last recorded relative error 0.00214901
+sign_flip: trial 2/5, AQRK_all, last recorded relative error 0.001777
+oblivious: trial 3/5, RK, last recorded relative error 1.38747
+oblivious: trial 3/5, ARK, last recorded relative error 0.408931
+oblivious: trial 3/5, QRK, last recorded relative error 0.0153948
+oblivious: trial 3/5, AQRK_fresh, last recorded relative error 0.000955115
+oblivious: trial 3/5, AQRK_reused, last recorded relative error 0.00264444
+oblivious: trial 3/5, AQRK_all, last recorded relative error 0.00173249
+sign_flip: trial 3/5, RK, last recorded relative error 1.05071
+sign_flip: trial 3/5, ARK, last recorded relative error 0.609245
+sign_flip: trial 3/5, QRK, last recorded relative error 0.012878
+sign_flip: trial 3/5, AQRK_fresh, last recorded relative error 0.000921214
+sign_flip: trial 3/5, AQRK_reused, last recorded relative error 0.00285004
+sign_flip: trial 3/5, AQRK_all, last recorded relative error 0.00220639
+oblivious: trial 4/5, RK, last recorded relative error 1.4188
+oblivious: trial 4/5, ARK, last recorded relative error 0.370558
+oblivious: trial 4/5, QRK, last recorded relative error 0.0137419
+oblivious: trial 4/5, AQRK_fresh, last recorded relative error 0.000811006
+oblivious: trial 4/5, AQRK_reused, last recorded relative error 0.00233771
+oblivious: trial 4/5, AQRK_all, last recorded relative error 0.00174435
+sign_flip: trial 4/5, RK, last recorded relative error 1.12075
+sign_flip: trial 4/5, ARK, last recorded relative error 0.642146
+sign_flip: trial 4/5, QRK, last recorded relative error 0.0129362
+sign_flip: trial 4/5, AQRK_fresh, last recorded relative error 0.000932113
+sign_flip: trial 4/5, AQRK_reused, last recorded relative error 0.00258286
+sign_flip: trial 4/5, AQRK_all, last recorded relative error 0.00209675
+oblivious: trial 5/5, RK, last recorded relative error 1.58519
+oblivious: trial 5/5, ARK, last recorded relative error 0.373296
+oblivious: trial 5/5, QRK, last recorded relative error 0.0138899
+oblivious: trial 5/5, AQRK_fresh, last recorded relative error 0.000968775
+oblivious: trial 5/5, AQRK_reused, last recorded relative error 0.00244522
+oblivious: trial 5/5, AQRK_all, last recorded relative error 0.00178422
+sign_flip: trial 5/5, RK, last recorded relative error 1.03181
+sign_flip: trial 5/5, ARK, last recorded relative error 0.617279
+sign_flip: trial 5/5, QRK, last recorded relative error 0.0131639
+sign_flip: trial 5/5, AQRK_fresh, last recorded relative error 0.000896506
+sign_flip: trial 5/5, AQRK_reused, last recorded relative error 0.002572
+sign_flip: trial 5/5, AQRK_all, last recorded relative error 0.00221363
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/sofiiashvaiko/Documents/demo/fall26-demo/code/base_experiment.py", line 212, in <module>
+    main()
+  File "/Users/sofiiashvaiko/Documents/demo/fall26-demo/code/base_experiment.py", line 208, in main
+    plot_results(args.output)
+  File "/Users/sofiiashvaiko/Documents/demo/fall26-demo/code/base_experiment.py", line 161, in plot_results
+    import matplotlib
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/matplotlib/__init__.py", line 970, in <module>
+    rcParamsDefault = _rc_params_in_file(
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/matplotlib/__init__.py", line 904, in _rc_params_in_file
+    config[key] = val  # try to convert to proper type or raise
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/matplotlib/__init__.py", line 739, in __setitem__
+    cval = self.validate[key](val)
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 427, in validate_font_properties
+    parse_fontconfig_pattern(s)
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py", line 83, in parse_fontconfig_pattern
+    parser = _make_fontconfig_parser()
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py", line 64, in _make_fontconfig_parser
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+  File "/private/tmp/fall26-base-venv/lib/python3.9/site-packages/pyparsing/util.py", line 472, in _inner
+    warnings.warn(
+pyparsing.warnings.PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'

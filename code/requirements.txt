@@ -1,0 +1,4 @@
+numpy>=1.23,<2.1
+matplotlib>=3.7,<3.10
+# Matplotlib 3.9 uses parser APIs deprecated in pyparsing 3.3.
+pyparsing>=2.3.1,<3.3

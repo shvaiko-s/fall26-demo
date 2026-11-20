@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "trials": 5,
+  "iterations": 6000,
+  "root_seed": 42,
+  "models": [
+    "oblivious",
+    "sign_flip"
+  ],
+  "methods": [
+    "RK",
+    "ARK",
+    "QRK",
+    "AQRK_fresh",
+    "AQRK_reused",
+    "AQRK_all"
+  ],
+  "m": 2000,
+  "n": 100,
+  "beta": 0.3,
+  "q": 0.6,
+  "h": 1200,
+  "alpha": 1.0,
+  "batch_size": 100,
+  "query_half_width": 0.02,
+  "noise_distribution": "uniform",
+  "bit_generator": "PCG64",
+  "seed_keys": {
+    "system": "(trial, 0)",
+    "corruption": "(trial, 1, model_index)",
+    "method": "(trial, 2, model_index, method_index, stream_index)",
+    "stream_indices": [
+      "row_sampling",
+      "selection_noise",
+      "update_noise"
+    ]
+  },
+  "history": "pre-update relative error, k=0,...,iterations-1",
+  "cross_model_systems": "shared",
+  "source_sha256": {
+    "base_experiment.py": "5ecfccaa871905dcdf7a90c72bb85a699b325353acb1f3e1d497b28d3d1bda4d",
+    "qrk.py": "c134dcd3a33c9b0bae8298ff68d39ee41c1c103e2c66c5782805addb87099633",
+    "noisy_methods_optimized.py": "b968f4d162fb63cb7515ab6f1feca8cbe2f9a2e1d07479b4a2ddf821df2ca7f2"
+  },
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

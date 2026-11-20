@@ -1,0 +1,17 @@
+oblivious: all 5 systems, LS references, 6 method histories, and aggregates passed
+  RK: median relative error at k=5999 = 1.4188003
+  ARK: median relative error at k=5999 = 0.37055754
+  QRK: median relative error at k=5999 = 0.013889936
+  AQRK_fresh: median relative error at k=5999 = 0.00095511523
+  AQRK_reused: median relative error at k=5999 = 0.0024452157
+  AQRK_all: median relative error at k=5999 = 0.0017443453
+  LS reference = 0.34070322
+sign_flip: all 5 systems, LS references, 6 method histories, and aggregates passed
+  RK: median relative error at k=5999 = 1.1207456
+  ARK: median relative error at k=5999 = 0.62165728
+  QRK: median relative error at k=5999 = 0.012936173
+  AQRK_fresh: median relative error at k=5999 = 0.00092121377
+  AQRK_reused: median relative error at k=5999 = 0.0025828638
+  AQRK_all: median relative error at k=5999 = 0.0021528198
+  LS reference = 0.63044976
+Source hashes match the executed files. All full-run numerical checks passed.
