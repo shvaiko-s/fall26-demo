@@ -1,0 +1,41 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+
+\title{Literature Review Summaries}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Labels are maintained in ../lit_review/CITATION_LABELS.md.
+\section{[HMR] Quantile-based Loss Filtering\\for Outlier-Robust Stochastic Gradient Descent}
+\label{sec:hmr}
+\textbf{Authors:} Jamie Haddock, Anna Ma, and Elizaveta Rebrova.
+
+The paper studies finite-sum optimization with corrupted component functions,
+aiming to recover a minimizer of the uncorrupted objective. Its main
+contribution is Quantile-$k$-Loss SGD (Q$k$L-SGD): each iteration samples $k$
+component losses, selects an index uniformly from their lower empirical
+$q$-quantile, and takes one gradient step. The method interpolates between
+minimum-$k$-loss SGD and ordinary SGD, balancing outlier rejection against
+selection of informative updates.
+
+The authors establish two complementary convergence results. For sufficiently
+large samples relative to the number of corruptions, they prove linear
+convergence in expected squared distance to the clean minimizer under
+smoothness, interpolation, subset strong convexity, and suitable sampling and
+step-size conditions. For arbitrary sample sizes, a probabilistic analysis
+relates convergence to the chance of selecting an outlier and the expected
+curvature of a good update. With bounded corrupted updates and sufficient
+contraction, this yields linear convergence to an error neighborhood; exact
+convergence requires additional control of corrupted updates near the solution.
+
+Experiments on polynomial regression, regularized logistic regression, and
+regularized hinge loss show that intermediate quantiles often outperform
+both ordinary SGD and minimum-$k$-loss SGD. The latter can stall by repeatedly
+selecting nearly solved components. The paper identifies averaging accepted
+gradients, momentum, and variance reduction as directions for future work.
+
+\end{document}
